@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CADASTRO PAÍSES</title>
+		<style>
+		
+		.container{ 
+                max-width: 1280px;
+                margin: auto;
+            }
+            .entrada-texto {
+                font-size: 1.2rem;
+                padding:12px;
+                margin-bottom: 4px;
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .entrada-botao{
+                font-size: 1.2rem;
+                background-color: #2196F3;
+                color: white;
+                padding:12px;
+                float:right;
+               
+            }
+		
+		</style>
+	</head>
+	<body>
+		<h3>CADASTRO PAÍSES</h3>
+		<form action="ManterPais.do" method="post">
+			Nome: <input type="text" name="nome"><br>
+			População: <input type="text" name="populacao"><br>
+			Área: <input type="text" name="area"><br> 
+			<input type="submit">
+		</form>
+	</body>
+</html>
